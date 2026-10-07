@@ -1,0 +1,6 @@
+{
+  "name": "AI for School - SSD Prayas Educational Initiative",
+  "description": "Empowering K-12 school students with hands-on Artificial Intelligence, coding, robotics, and future-ready technology skills through experiential school curriculums.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
