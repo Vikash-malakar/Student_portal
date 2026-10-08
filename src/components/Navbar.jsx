@@ -12,7 +12,8 @@ export default function Navbar() {
     { name: 'About', path: '/about' },
     { name: 'AI Curriculum', path: '/ai-curriculum' },
     { name: 'Government', path: '/government' },
-    { name: 'Contact', path: '/contact' }
+    { name: 'Contact', path: '/contact' },
+    
   ];
 
   return (
