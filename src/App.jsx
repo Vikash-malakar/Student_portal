@@ -7,6 +7,10 @@ import AboutPage from './pages/AboutPage';
 import CurriculumPage from './pages/CurriculumPage';
 import GovernmentPage from './pages/GovernmentPage';
 import ContactPage from './pages/ContactPage';
+import Programmers from './pages/Programmers';
+import Ai_for_student from './pages/Ai_for_student';
+
+
 
 // Scroll to top on route change
 function ScrollToTop() {
@@ -35,6 +39,8 @@ export default function App() {
             <Route path="/ai-curriculum" element={<CurriculumPage />} />
             <Route path="/government" element={<GovernmentPage />} />
             <Route path="/contact" element={<ContactPage />} />
+            <Route path="/programmes" element={<Programmers />} />
+            <Route path="/ai_for_student" element={<Ai_for_student />} />
             <Route path="*" element={<HomePage />} />
           </Routes>
         </main>
