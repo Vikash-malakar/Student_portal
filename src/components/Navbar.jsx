@@ -7,14 +7,15 @@ export default function Navbar() {
   const [loginModalOpen, setLoginModalOpen] = useState(false);
   const navigate = useNavigate();
 
-  const navLinks = [
-    { name: 'Home', path: '/' },
-    { name: 'About', path: '/about' },
-    { name: 'AI Curriculum', path: '/ai-curriculum' },
-    { name: 'Government', path: '/government' },
-    { name: 'Contact', path: '/contact' },
-    
-  ];
+  
+const navLinks = [
+  { name: 'Home', path: '/' },
+  { name: 'About', path: '/about' },
+  { name: 'AI Curriculum', path: '/ai-curriculum' },
+  { name: 'Government', path: '/government' },
+  { name: 'Careers', path: '/careers' },
+  { name: 'Contact', path: '/contact' }
+];
 
   return (
     <>
