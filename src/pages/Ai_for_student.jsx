@@ -1290,57 +1290,11 @@ const CybromBenefitsCarousel = () => {
 
         <div className="mb-10 text-center">
 
-          <div
-            className="
-              mb-5
-              inline-flex
-              items-center
-              gap-2
-              rounded-full
-              border
-              border-blue-200
-              bg-blue-50
-              px-5
-              py-2
-              text-sm
-              font-semibold
-              text-[#2476E8]
-            "
-          >
-            <GraduationCap size={17} />
+          
 
-            WHAT'S INCLUDED
-          </div>
+          
 
-          <h2
-            className="
-              text-4xl
-              font-bold
-              tracking-tight
-              text-[#111827]
-              md:text-5xl
-            "
-          >
-            What You Get at{" "}
-            <span className="text-[#2476E8]">
-              Cybrom
-            </span>
-          </h2>
-
-          <p
-            className="
-              mx-auto
-              mt-4
-              max-w-2xl
-              text-base
-              leading-7
-              text-slate-500
-              md:text-lg
-            "
-          >
-            Everything you need to learn, build and become
-            industry-ready.
-          </p>
+          
 
         </div>
 
